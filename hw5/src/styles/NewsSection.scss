@@ -1,0 +1,20 @@
+.news__sections {
+  display: flex;
+  align-items: center;
+
+  .date {
+    opacity: 0.5;
+  }
+}
+
+.news-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rates {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}

@@ -1,0 +1,47 @@
+%title-type {
+  font-weight: bold;
+  color: blue;
+  font-size: larger;
+}
+
+.weather {
+  a {
+    @extend %title-type;
+  }
+}
+
+.visited {
+  a {
+    @extend %title-type;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+}
+
+.map {
+  a {
+    @extend %title-type;
+  }
+  span {
+    display: block;
+  }
+}
+
+.broadcast {
+  a {
+    @extend %title-type;
+  }
+  span {
+    opacity: 0.5;
+  }
+}
+
+.on-live {
+  a {
+    @extend %title-type;
+  }
+  span {
+    opacity: 0.5;
+  }
+}

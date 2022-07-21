@@ -1,0 +1,14 @@
+.search {
+  margin-bottom: 10px;
+
+  .form {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .example {
+    opacity: 0.5;
+  }
+}
